@@ -1,4 +1,3 @@
-//Proceso sencillo
 //Sin validacón de que es un número
 Proceso Duplicados
     Definir n, i, j, contador Como Entero

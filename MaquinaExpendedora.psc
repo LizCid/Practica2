@@ -1,7 +1,6 @@
-// -----------------------------
 // Función: EsEntero
 // Verifica si una cadena es un número entero
-// -----------------------------
+
 Funcion resultado <- EsEntero(txt Por Valor)
     Definir i Como Entero
     Definir valido Como Logico
@@ -24,10 +23,9 @@ Funcion resultado <- EsEntero(txt Por Valor)
     FinSi
 FinFuncion
 
-// -----------------------------
 // Función: BuscarPrecio
 // Busca el precio de un producto por su código
-// -----------------------------
+
 Funcion precio <- BuscarPrecio(codigo Por Valor, productos, precios)
     Definir i Como Entero
     precio <- 0
@@ -38,10 +36,9 @@ Funcion precio <- BuscarPrecio(codigo Por Valor, productos, precios)
     FinPara
 FinFuncion
 
-// -----------------------------
 // Función: ProcesarComando
 // Maneja los comandos especiales: PARAR y RETIRAR
-// -----------------------------
+
 Funcion resultado <- ProcesarComando(comando Por Valor, importe Por Referencia)
     Definir resultado Como Entero
     resultado <- 0 // 0 = nada especial, 1 = terminar compra, 2 = apagar máquina
@@ -62,9 +59,8 @@ Funcion resultado <- ProcesarComando(comando Por Valor, importe Por Referencia)
 FinFuncion
 
 
-// -----------------------------
 // PROCESO PRINCIPAL
-// -----------------------------
+
 Proceso MaquinaExpendedora
     Definir entrada, entradaUp Como Cadena
     Definir importe, moneda, precio, i Como Entero
